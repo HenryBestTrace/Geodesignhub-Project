@@ -32,8 +32,7 @@ A comprehensive system for analyzing and visualizing geodesign data, user respon
 - different_ideology_for_same_place_(1).py: Analyzes different conceptual proposals for the same location, categorizes by Open Location Code
 - different_responses_for_same_idea_v2.py: Advanced NLP module for response clustering, uses sentence embeddings and multiple clustering algorithms
 
-### Dashboard System Components
-- services/: Directory containing systemd service configuration files
+### Dashboard Services
 - dashboard.service: Main dashboard service configuration
 - dashboard-location.service: Location dashboard service
 - dashboard-conceptual.service: Conceptual dashboard service
