@@ -1,0 +1,12 @@
+[Unit]
+Description=Response Summary Dashboard
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/opt/dashboard
+Environment="PATH=/opt/dashboard/venv/bin"
+ExecStart=/opt/dashboard/venv/bin/python3 /opt/dashboard/classified_response_summay.py
+
+[Install]
+WantedBy=multi-user.target

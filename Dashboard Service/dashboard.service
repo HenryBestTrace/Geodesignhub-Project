@@ -1,0 +1,13 @@
+[Unit]
+Description=Geodata Visualization Dashboard
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/opt/dashboard
+Environment="PATH=/opt/dashboard/venv/bin"
+Environment="EC2_MODE=1"
+ExecStart=/opt/dashboard/venv/bin/gunicorn --workers 3 --bind 0.0.0.0:8050 main_app_ec2:server
+
+[Install]
+WantedBy=multi-user.target

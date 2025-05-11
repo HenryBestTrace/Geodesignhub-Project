@@ -1,0 +1,12 @@
+[Unit]
+Description=Different Places Dashboard
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/opt/dashboard
+Environment="PATH=/opt/dashboard/venv/bin"
+ExecStart=/opt/dashboard/venv/bin/python3 /opt/dashboard/different_place_for_sameidea_new2.py
+
+[Install]
+WantedBy=multi-user.target
