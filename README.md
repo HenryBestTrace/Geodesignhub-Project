@@ -42,4 +42,4 @@ A comprehensive system for analyzing and visualizing geodesign data, user respon
 
 ### Citation
 If you use this dashboard in your research, please cite:
-Author Name. (2025). Geographic Data Visualization Dashboard (v1.0.1) [Software]. Zenodo. https://doi.org/10.5281/zenodo.15383261
+Author Name. (2025). Geodesignhub Project Dashboard (v1.0.1) [Software]. Zenodo. https://doi.org/10.5281/zenodo.15383261
