@@ -1,0 +1,12 @@
+[Unit]
+Description=Conceptual Responses Dashboard
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/opt/dashboard
+Environment="PATH=/opt/dashboard/venv/bin"
+ExecStart=/opt/dashboard/venv/bin/python3 /opt/dashboard/conceptual_classified_responses.py
+
+[Install]
+WantedBy=multi-user.target
