@@ -31,6 +31,7 @@ A comprehensive system for analyzing and visualizing geodesign data, user respon
 - geography.py: Combines NLP and spatial clustering for geographic theme analysis, implements DBSCAN for spatial grouping
 - different_ideology_for_same_place_(1).py: Analyzes different conceptual proposals for the same location, categorizes by Open Location Code
 - different_responses_for_same_idea_v2.py: Advanced NLP module for response clustering, uses sentence embeddings and multiple clustering algorithms
+- Geodesignhub_EDA.ipynb: The analysis focuses on understanding the characteristics of the text comments, including their length distribution and identifying the most frequently used words. This notebook serves as a preliminary step for potential textual classification tasks
 
 ### Dashboard Services
 - dashboard.service: Main dashboard service configuration
